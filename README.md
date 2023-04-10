@@ -11,9 +11,9 @@ ECharts is a declarative framework for rapid construction of web-based visualiza
 It provides various types of charts, such as line, bar, scatter, pie, and more, with so many options and animations. It is designed to make data visualization easy and
 efficient for developers.
 
-[Getting strat](https://echarts.apache.org/handbook/en/get-started/)
-[setOption Method](https://echarts.apache.org/en/option.html#title)
-[Features of Echarts](https://echarts.apache.org/en/feature.html)
+## [Getting strat](https://echarts.apache.org/handbook/en/get-started/)
+## [setOption Method](https://echarts.apache.org/en/option.html#title)
+## [Features of Echarts](https://echarts.apache.org/en/feature.html)
 
 
 ## Tools we used
