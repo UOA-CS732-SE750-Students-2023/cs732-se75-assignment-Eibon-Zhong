@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Dashborad Demo</title>
+    <style>
+        html,body{
+            background: #1e2131;
+            color: #fff;
+            font-family: "Microsoft YaHei";
+            padding: 0.5vw;
+        }
+        .panel{
+            border: 1px solid #3188ff;
+            box-shadow: 0.1vw 0.1vw 1vw rgba(38,79,141,.7);
+            height: 27vw; 
+            border-radius: 0;
+            margin-bottom: 20px;
+            background: #1e2131;
+        }
+        .panel-header{
+            background: #252e44;
+            padding: 0.8vw 1.3vw;
+            border-radius: 0;
+            height: 2.5vw;
+        }
+
+        .panel-header p {
+            margin: 0;
+            font-family: "Microsoft YaHei";
+            font-weight: bold;
+            font-size: 0.8vw;
+            border-radius: 0;
+        }
+
+        .panel-body{
+            height: 90%;
+        }
+
+        ul{
+            list-style-type:none;
+        }
+        .bold{
+            font-weight: bold;
+        }
+
+        .title h1
+        {
+            margin: 0;
+            font-family: "Microsoft YaHei";
+            font-size: 2vw;
+            padding: 0vw 0 0.5vw 0;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid container-fluid">
+    <div class="row">
+        <div class="col-lg-12 title"><h1>Dashborad Demo</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="panel">
+                <ul class="panel-header">
+                    <li class="fl"><p>chat01</p></li>
+                </ul>
+                <div class="panel-body">
+                   <div style="height: 100%;width: 100%;" id="chart01"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel">
+                <ul class="panel-header">
+                    <li class="fl"><p>chat02</p></li>
+                </ul>
+                <div class="panel-body">
+                   <div style="height: 100%;width: 100%;" id="chart02"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel">
+                <ul class="panel-header">
+                    <li class="fl"><p>chat03</p></li>
+                </ul>
+                <div class="panel-body">
+                   <div style="height: 100%;width: 100%;" id="chart03"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="panel">
+                <ul class="panel-header">
+                    <li class="fl"><p>chat04</p></li>
+                </ul>
+                <div class="panel-body">
+                    <div style="height: 100%;width: 100%;" id="chart04"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel">
+                <ul class="panel-header">
+                    <li class="fl"><p>chat05</p></li>
+                </ul>
+                <div class="panel-body">
+                    <div style="height: 100%;width: 100%;" id="chart05"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/bootstrap.js"></script>
+<script src="js/lib/echarts.min.js"></script>
+<script type="text/javascript" src="js/lib/ecStat.min.js"></script>
+<script src="js/lib/echarts.theme.walden.js"></script>
+<script type='text/javascript' src='data/USA.js'></script>
+<script type='text/javascript' src='data/world.js'></script>
+
+<script src="js/chart01.js"></script>
+<script src="js/chart02.js"></script>
+<script src="js/chart03.js"></script>
+<script src="js/chart04.js"></script>
+<script src="js/chart05.js"></script>
+
+<script type="text/javascript">
+
+
+
+</script>
+</body>
+</html>
